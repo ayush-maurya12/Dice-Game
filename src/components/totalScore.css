@@ -1,0 +1,13 @@
+.total_score h1{
+    font-size: 100px;
+    line-height: 0px;
+}
+.total_score p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.total_score{
+    text-align: center;
+     max-width: 200px;
+    /* background-color: red; */
+}

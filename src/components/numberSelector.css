@@ -1,0 +1,43 @@
+.selector{
+  height: 72px;
+  width: 72px;  
+  border:2px solid black;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  font-weight: 700px;
+}
+.selected{
+    height: 72px;
+    width: 72px;  
+    border:2px solid black;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-weight: 700px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+  }
+  .selector:hover{
+    cursor: pointer;
+  }
+  .NumberContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+  }
+  .sel_num{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .numbers{
+    display: flex;
+    gap:24px;
+  }
+  .err{
+    color:red;
+    font-size:20px;
+    font-weight: normal;
+  }

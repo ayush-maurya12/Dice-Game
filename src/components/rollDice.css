@@ -1,0 +1,10 @@
+.dice{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+}
+.dice p{
+    font-size: 24px;
+}
